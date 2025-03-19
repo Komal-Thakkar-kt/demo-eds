@@ -21,7 +21,6 @@ export default function decorate(block) {
   block.append(prevEle);
 
   const swiper = new Swiper('.swiper', {
-    // Optional parameters
     navigation: {
       nextEl: '.swiper-button-next',
       prevEl: '.swiper-button-prev',
